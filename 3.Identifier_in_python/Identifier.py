@@ -8,3 +8,6 @@ print(_x)
 # * it is case sensitive language 
 # name="ajay"
 # print(Name)
+
+x3452c=30
+print(x3452c)

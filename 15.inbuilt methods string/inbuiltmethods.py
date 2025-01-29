@@ -9,3 +9,10 @@ print(sr1.count('o'))
 print(sr1.index('P'))
 print(sr1.find('P'))
 print(sr1.find('p'))
+
+# parameter of split('cahr',how many times)
+s="I Love Python"
+print(s.split())
+print(s.split('o',1))
+# below code is output error 
+# print(s.split('',1))

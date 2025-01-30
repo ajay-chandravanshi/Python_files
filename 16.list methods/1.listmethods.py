@@ -41,3 +41,13 @@ print(id(p5),id(p6))
 # count method
 p7=[10,20,'Ajay',30,40,10]
 print(p7.count(10))
+
+# index method
+p8=[10,20,'Ajay',30,40,10]
+print(p8.index(10))
+print(p8.index(10,1))
+
+
+p8=[10,20,'Ajay',30,40,70]
+p8.reverse()
+print(p8)

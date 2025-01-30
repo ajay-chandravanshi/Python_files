@@ -16,3 +16,13 @@ print(s.split())
 print(s.split('o',1))
 # below code is output error 
 # print(s.split('',1))
+
+# join()
+s1='Ajay'
+s2='chandravanshi'
+s3='from bhopal'
+x=[s1,s2,s3]
+print(''.join(x))
+print(' '.join(x))
+print('new '.join(x))
+print(type('new'.join(x)))

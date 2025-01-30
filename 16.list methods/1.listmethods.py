@@ -47,7 +47,14 @@ p8=[10,20,'Ajay',30,40,10]
 print(p8.index(10))
 print(p8.index(10,1))
 
-
+# reverse method
 p8=[10,20,'Ajay',30,40,70]
 p8.reverse()
 print(p8)
+
+# sort method
+p9=[10,90,100,20,30,40,70]
+p9.sort()
+print(p9)
+p9.sort(reverse=True)
+print(p9)

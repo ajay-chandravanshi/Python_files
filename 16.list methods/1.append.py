@@ -30,3 +30,14 @@ l5=[10,20,'Ajay',30,40]
 l5.clear()
 # del l5
 print(l5)
+
+# copy method
+p5=[10,20,'Ajay',30,40]
+p6=p5.copy()
+print(p5)
+print(p6)
+print(id(p5),id(p6))
+
+# count method
+p7=[10,20,'Ajay',30,40,10]
+print(p7.count(10))

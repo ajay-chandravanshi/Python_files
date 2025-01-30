@@ -17,3 +17,16 @@ print(l2)
 l3=[10,20,'Ajay',30,40]
 l3.insert(0,'Raj')
 print(l3)
+
+# pop method
+l4=[10,20,'Ajay',30,40]
+print(l4.pop())
+# l4.pop()
+print(l4)
+print(l4.pop())
+
+# clear method
+l5=[10,20,'Ajay',30,40]
+l5.clear()
+# del l5
+print(l5)

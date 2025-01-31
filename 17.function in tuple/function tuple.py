@@ -9,4 +9,4 @@ print(type(t1),type(t2))
 
 x=tuple()
 print(x)
-print(type(x))
+print(type)

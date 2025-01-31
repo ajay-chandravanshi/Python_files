@@ -10,3 +10,8 @@ print(type(t1),type(t2))
 x=tuple()
 print(x)
 print(type)
+
+print(t1.index(10))
+# print(t1.index(10,2))
+
+print(t1.count(10))

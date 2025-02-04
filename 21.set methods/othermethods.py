@@ -4,9 +4,12 @@ print(A.union(B))
 print(A.intersection(B))
 print(A.difference(B))
 print(A.symmetric_difference(B))
+
 A.intersection_update(B)
 print(A)
+
 B.difference_update(A)
 print(B)
+
 A.symmetric_difference_update(B)
 print(A)

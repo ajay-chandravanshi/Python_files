@@ -7,4 +7,4 @@ if(n%2==0):
 else:
     print(f'{n} is odd no.')
     print('odd no=',n)    
-print("Hello")    
+print("Hello")  

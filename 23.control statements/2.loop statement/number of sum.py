@@ -1,0 +1,11 @@
+n=int(input("Enter the number"))
+i=1;
+sum=0
+while i<=n:
+    sum=sum+i
+    if i<n:
+        print(i,end='+')
+    else:
+        print(i,end='=')
+    i=i+1 
+print(sum)           

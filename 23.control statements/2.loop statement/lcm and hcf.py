@@ -1,4 +1,4 @@
-# hcf
+
 x=8
 y=12
 m=min(x,y)

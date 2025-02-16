@@ -1,3 +1,4 @@
+# sum all the numbers in a list.
 def add(x):
     sum=0
     for i in x:

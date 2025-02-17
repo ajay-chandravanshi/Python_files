@@ -6,7 +6,7 @@
 
 # one code in 2 ways 
 
-# first type 
+# 1st first type 
 
 # res=add(2,4,6,8,9,12,234,43,3)
 # print(res)
@@ -21,15 +21,24 @@
 # res=add(*x)
 # print(res)
 
-# second type 
+# 2nd second type 
 
-def add(*args):
-  sum=0
-  for i in args:
-      for j in i:
-       sum=sum+j
-  return sum
+# def add(*args):
+#   sum=0
+#   for i in args:
+#       for j in i:
+#        sum=sum+j
+#   return sum
+
+# x=eval(input("Enter your values="))
+# res=add(x)
+# print(res)
+
+# 3rd code
+# single * star hamesha tuple hi hold karega
+def tup(*n):
+    print(n)
+
 
 x=eval(input("Enter your values="))
-res=add(x)
-print(res)
+res=tup(x)  

@@ -1,0 +1,1 @@
+# (output element is always equal to (=) one element) toh Reduce function lagega

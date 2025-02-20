@@ -1,0 +1,5 @@
+# Write a program to find area of  triangle. (1/2* hight*base)
+hight=int(input("Enter the hight of triangle="))
+base=int(input("Enter the base of triangle="))
+triangle=1/2*(hight*base)
+print("area of  triangle=",triangle)

@@ -6,4 +6,4 @@ x=dict1.keys()
 if n in x:
     print("No. of Days=",dict[n])
 else:
-    print("Invalid Input")    
+    print("Invalid")    

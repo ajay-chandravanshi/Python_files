@@ -5,3 +5,4 @@ i=0
 while(i<len(tup)):
     print(tup[i]+5)
     i=i+1
+    print("Thanks for visit")

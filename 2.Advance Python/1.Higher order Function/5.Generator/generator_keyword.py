@@ -1,3 +1,5 @@
+# generator is a key word
+
 def first():
     # return 'Hello'
     yield 1

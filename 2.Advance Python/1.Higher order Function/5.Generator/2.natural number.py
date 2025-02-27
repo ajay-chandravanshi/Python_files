@@ -5,7 +5,7 @@ def naturalno(x):
         i=i+1
 n=int(input("enter the number="))
 p=naturalno(n)
-print(next(p))        
+next(p)             #ise output nhi aayega value aage bada dega bus        
 print(next(p))
-for i in p:
-    print(i)        
+# for i in p:
+#     print(i)        

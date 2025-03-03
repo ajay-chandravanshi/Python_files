@@ -1,4 +1,6 @@
 # Every .py file is called Module 
+# It Contains (Variable,function,class ,Methods ,comment)
+
 def add(x,y):
   return(x+y)
 

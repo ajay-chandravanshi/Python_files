@@ -36,4 +36,4 @@ class Student:
         print( "value of x",self.x)  
 obj=Student()
 obj.x=10
-obj.show()       
+obj.show()      

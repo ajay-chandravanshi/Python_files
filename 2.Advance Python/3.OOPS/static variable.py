@@ -1,4 +1,4 @@
-# In this (school and city) is a static variable because their value is not change 
+# In this (school and city) is a static variable ya class vaiable because their value is not change 
 
 # declaration(Inside class=outside method)
 
@@ -21,16 +21,16 @@
 # obj2.show()
 
 class Student:
-    school='SHSS'
+    school='SHSS'           # static variable
   
 
     def __init__(self,name,roll):
         self.x=name
         self.y=roll
-        Student.city='Bhopal'
+        Student.city='Bhopal'  # static variable
 
     def show(self):
-       Student.s_code=123
+       Student.s_code=123   # static variable
 
     def display(self):
         print(Student.s_code)     
@@ -38,7 +38,8 @@ class Student:
         print(Student.school)     
         print(Student.principle)
 
-Student.principle='Rahul'        
+Student.principle='Rahul'     # static variable   
 obj=Student('Ajay',101)
 obj.show()
 obj.display()
+print(Student.s_code) 

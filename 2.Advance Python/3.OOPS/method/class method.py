@@ -1,5 +1,7 @@
-# static method ko modify karne ke liye hum class method ka use karte hai
-# class method banane ke liye (@classdecorator) ka use karte hai
+# static variable or class variable  ko modify karne ke liye hum class method ka use karte hai
+# class method banane ke liye (@classmethod) ka use karte hai
+# class method ka first parameter cls hota hai
+
 
 class Book:
     price=100
@@ -7,7 +9,8 @@ class Book:
     def __init__(self,stu_name):
         self.x=stu_name
         print(self.x,Book.price,Book.total_pages)
-    @classmethod
+
+    @classmethod                #this is a classmethod
     def update(cls,p,q):
         cls.price=p
         cls.total_pages=q

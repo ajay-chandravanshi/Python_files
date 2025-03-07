@@ -1,6 +1,6 @@
 # aisi method jinka pehla parameter (self hona chahiye) hota hai
 # instance method ko ak dushre ke ander call kane ke liye pehle (class name . function name)
-
+# iska first parameter self hota hai
 class Student:
     def first(self):
         print("This is form first")

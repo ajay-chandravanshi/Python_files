@@ -50,4 +50,18 @@ L2=[]
 for num in L1:
     if num not in L2:
         L2.append(num)
-print(L2)        
+print(L2)    
+
+# code-4
+
+# Q.4 Check if a List is Palindrome: 
+
+# Input: [1, 2, 3, 2, 1]
+# Output: True
+
+L1=list(input("Enter the list="))
+L2=L1[::-1]
+if(L1==L2):
+    print("this is a palindrome")
+else:
+    print("Not a palindrome") 

@@ -6,21 +6,7 @@
 # while (i<len(L1)):
 #        sum=sum+L1[i]
 #        i=i+1
-# print("The sum of all the elements =",sum)    
-
-
-# Q.3 Write a Python program to count the occurrences of a specific element in a list.
-
-# L1=eval(input("Enter the list element="))
-# L2=list(L1)
-# i=0
-# count=0
-# element=int(input("Enter the element to count="))
-# while (i<len(L1)):
-#     if(L1[i]==element):
-#         count=count+1
-#     i=i+1
-# print(f"The Element {element} appears {count} times in the list")        
+# print("The sum of all the elements =",sum)         
 
 # Q.4 Write a program to remove all duplicates from a list.
 
@@ -35,4 +21,11 @@
         
 # print(L3)      
 
-  
+L1=[10,20,1,2,10,20]
+L2=[]
+i=0
+while(i<len(L1)):
+     if L1[i] not in L2:
+          L2.append(L1[i])
+     i=i+1
+print(L2)          

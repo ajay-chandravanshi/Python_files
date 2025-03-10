@@ -4,7 +4,7 @@ class A:
     x=10
     def home(self):
         print("Home from parent")
-class B(A):
+class B(A):                        # isme B child hai or A parent hai ( B(A) )
     def car(self):
         print("car from child")
 

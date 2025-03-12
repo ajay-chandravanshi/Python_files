@@ -1,5 +1,5 @@
 # Q.1. Write a Python program to find the sum of all elements in a list.
-# list mai jab input mai denge run karne par toh [] isme denge 
+# list mai jab input mai denge run karne par toh [] isme denge.
 
 L1=eval(input("Enter the list element="))   
 sum=0

@@ -1,3 +1,6 @@
+# error in the above code sir ne itna hi karwaya tha
+# because humne parent ka use nhi kiya child mai
+
 from abc import ABC,abstractmethod
 
 class A(ABC):

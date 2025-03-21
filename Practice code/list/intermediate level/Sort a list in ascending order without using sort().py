@@ -10,4 +10,3 @@ while(i<n):
         j=j+1
     i=i+1       
 print(L1)
-

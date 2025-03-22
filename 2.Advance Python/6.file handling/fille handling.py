@@ -85,9 +85,31 @@
 # print(f.writable())
 # print(f.closed)
 
-f=open('f1.py','a')
-# f.write('Hello,this is file-handling class')
+# f=open('f1.py','a')
+# # f.write('Hello,this is file-handling class')
+# # f.close()
+# data=['Hi\n','Hello\n','Welcome\n']
+# f.writelines(data)
 # f.close()
-data=['Hi\n','Hello\n','Welcome\n']
-f.writelines(data)
-f.close()
+
+# read operation
+
+# f=open('f1.py','r')
+# data=f.read(5)
+# print(data)
+
+# data=f.read(10)
+# print(data)
+
+# data=f.read()
+# print(data)
+
+# data=f.read()
+# print(data)
+
+f=open('f1.py','r')
+data=f.readline()
+print(data)
+
+data=f.readlines()
+print(data)

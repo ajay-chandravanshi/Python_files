@@ -1,7 +1,7 @@
 # Q . Check if all elements in a list are unique.
 
 
-L = [1, 2, 3, 4, 5, 6]  # Example list
+L = [1, 2, 3, 4, 5, 6]
 i = 0
 is_unique = True
 

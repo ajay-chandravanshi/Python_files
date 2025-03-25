@@ -20,3 +20,5 @@ if is_unique:
     print("All elements are unique")
 else:
     print("Duplicate elements found")
+
+print("thanks for visit")    

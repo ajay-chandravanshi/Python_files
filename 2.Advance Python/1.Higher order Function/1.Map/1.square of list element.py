@@ -2,12 +2,11 @@
 
 #only input and output equal hoga tab hi map function lagega
 
-def sqr(n):
-    return n**2
-l1=eval(input("Enter any Collection="))
-x=map(sqr,l1)
-print(x)
-print(list(x))
+def square(x):
+    return x**2
+y=eval(input("Enter the number="))
+result=list(map(square,y))
+print(result)
 
 
 

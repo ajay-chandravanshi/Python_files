@@ -6,3 +6,6 @@ for i in x:
         unique_values.append(i)
 
 print(unique_values)
+
+for i in x:
+    

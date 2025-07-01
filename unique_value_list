@@ -1,4 +1,4 @@
-x = [1, 2, 3, 2, 4, 1, 5]
+x = [1,2,2,2,56,2454,23452,12]
 unique_values = []
 
 for i in x:
@@ -6,6 +6,3 @@ for i in x:
         unique_values.append(i)
 
 print(unique_values)
-
-for i in x:
-    

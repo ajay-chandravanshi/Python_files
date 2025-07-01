@@ -6,3 +6,11 @@ for i in x:
         unique_values.append(i)
 
 print("this is a qunique value=",unique_values)
+x = [1,2,2,2,56,24,2,12]
+unique_values = []
+
+for i in x:
+    if x.count(i) == 1:
+        unique_values.append(i)
+
+print("this is a qunique value=",unique_values)

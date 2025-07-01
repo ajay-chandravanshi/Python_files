@@ -5,4 +5,4 @@ for i in x:
     if x.count(i) == 1:
         unique_values.append(i)
 
-print(unique_values)
+print("this is a qunique value=",unique_values)

@@ -1,2 +1,3 @@
-from utils import greed
+from utils import greed,green
 greed()
+green()
